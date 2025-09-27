@@ -34,8 +34,16 @@ age = int(input("Enter your age: "))
 print(f"You are {age} years old")
 height = float(input("Enter your height in feet: "))
 print(f"You are {height} feet tall")'''
-#exercise 1 area of rectangle
+'''#exercise 1 area of rectangle
 length = float(input("Enter the length of the rectangle: "))
 width = float(input("Enter the width of the rectangle: "))
 area = length * width
 print(f"The area of the rectangle is {area} square units")
+'''
+'''#exercise 2 shoping cart
+item = input("Enter the item name ")
+quantity = int(input("Enter the number of item "))
+price = float(input("Enter the price of the item "))
+total = (quantity) * (price)
+print(f"  {quantity} {item} at price {price} is {total} ")'''
+
