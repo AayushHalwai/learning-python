@@ -101,3 +101,20 @@ if available:
     print("item is available")
 else:
     print("item is not available")'''
+'''#logical operators
+day = "sunny"
+temp = 30
+if day == "sunny" and temp <20:
+    print("it is a nice day")
+elif day == "sunny" or temp == 30:
+        print("it is a sunny day or temp is 30")
+else :
+        print("it is not a sunny day")
+#not operator
+if not day == "sunny":
+    print("it is not a sunny day")'''
+'''#conditional expressions
+age = 10
+#print("you can vote" if age>= 18 else "you cannot vote")
+print("even" if age %2==0 else "odd")
+'''
