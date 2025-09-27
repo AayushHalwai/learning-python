@@ -118,3 +118,13 @@ age = 10
 #print("you can vote" if age>= 18 else "you cannot vote")
 print("even" if age %2==0 else "odd")
 '''
+'''#validate user input
+username = input("Enter your name: ")
+if len(username)>12:
+    print("username is too long then 12 characters")
+elif  not username.find(" ") == -1:
+    print("username cannot contain spaces")
+elif not username.isalpha():
+    print("username can only contain letters")
+else:
+    print(f"hello {username}")'''
