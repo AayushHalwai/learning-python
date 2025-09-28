@@ -128,3 +128,14 @@ elif not username.isalpha():
     print("username can only contain letters")
 else:
     print(f"hello {username}")'''
+'''#string indexing
+credit_card = "1234-5678-9876-5432"
+print(credit_card[1:10:2]) #start:end:step
+print(credit_card[-4:]) #last 4 digits
+print(credit_card[::2]) #every second digit'''
+'''#format specifiers
+cash1 = 10000.89833
+cash2 = -30020.89989
+print(f"${cash1:+,.2f}")
+print(f"${cash2:+,.1f}")
+print(f"${(cash2):^20.2f}")'''
