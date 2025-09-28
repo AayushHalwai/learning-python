@@ -153,3 +153,20 @@ while num <1 or num >10:
     print("invalid")
     num = int(input("enter num 1-10: "))
 print(f"you entered {num}")'''
+'''#for loop
+for x in range (1,11,2):
+    print(x)
+
+
+for x in reversed(range (1,11,2)):
+    print(x)
+print("/n")'''
+
+'''for x in range (1,20):
+    if x == 10:
+        break
+    else:
+        print(x)'''
+'''num = '12345679'
+for x in num:
+    print(x)'''
