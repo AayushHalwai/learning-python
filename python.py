@@ -139,3 +139,17 @@ cash2 = -30020.89989
 print(f"${cash1:+,.2f}")
 print(f"${cash2:+,.1f}")
 print(f"${(cash2):^20.2f}")'''
+#while loop
+'''name = input("Enter your name: ")
+while name == "":
+    print("name not entered")
+    name = input("enter your name: ") #untill user enter name the while loop will keep running
+
+print(f"hello, {name}!")'''
+
+'''num = int(input("enter num 1-10: "))
+
+while num <1 or num >10:
+    print("invalid")
+    num = int(input("enter num 1-10: "))
+print(f"you entered {num}")'''
