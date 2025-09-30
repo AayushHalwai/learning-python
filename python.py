@@ -170,3 +170,17 @@ print("/n")'''
 '''num = '12345679'
 for x in num:
     print(x)'''
+#nested loop
+'''for x in range (2):
+    for y in range (1,11):
+        print(y,end=" ")
+    print()
+'''
+'''rows = int(input("Enter No of rows"))
+columns = int(input("Enter No of columns"))
+symbol = input("enter symbol")
+
+for x in range(rows):
+    for y in range(columns):
+        print(symbol,end="")
+    print()'''
